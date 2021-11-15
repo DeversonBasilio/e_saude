@@ -1,10 +1,10 @@
 <?php
     session_start();
 
-    $serverName = "sql396.main-hosting.eu";
-    $Database   = "u121811460_saudebr";
-    $user       = "u121811460_db_admin";
-    $pass       = "Teorema7.7";
+    $serverName = secrets.SERVER_NAME_SECRET;
+    $Database   = secrets.SERVER_DATABASE;
+    $user       = secrets.SERVER_USER;
+    $pass       = secrets.SERVER_PASS;
     $charset    = "UTF-8";
 
     define('ENVIRONMENT', 'dev');
