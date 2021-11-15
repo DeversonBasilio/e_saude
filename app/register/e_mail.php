@@ -55,8 +55,8 @@ if(     isset($_POST["EMAIL_DEST"])
         </body>
     </html>';
     
-    $smtpUsername = 'noreply@e-saudebr.com';
-    $smtpPassword = 'Noreply2021';
+    $smtpUsername = secrets.EMAIL_USER;
+    $smtpPassword = secrets.EMAIL_PASSWORD';
     
     $emailFrom    = $smtpUsername;
     $emailFromName = 'Noreply';
